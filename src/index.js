@@ -31,6 +31,10 @@ app.use('/api/blogs', blogRoutes);
 
 app.use(errorHandler);
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Blogging API');
+});
+
 const PORT = process.env.PORT || 3001; // Changed default port to 3001
 
 const server = app.listen(PORT, () => {
