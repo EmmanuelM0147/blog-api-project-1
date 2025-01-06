@@ -1,5 +1,6 @@
 Blog API Project
-This project is a RESTful Blog API with authentication, developed to provide a backend service for managing blog posts and user interactions.
+
+This repository contains a Blog API built as part of an exam project. The project demonstrates the implementation of a RESTful API for managing blog posts, including user authentication and CRUD operations.
 
 Features
 · User Authentication: Secure user registration and login functionality.
@@ -27,19 +28,20 @@ Installation
 NB: The API will be accessible at http://localhost:5000.
 
 API Endpoints
-Authentication:
+· Authentication:
 
-POST /api/register - Register a new user.
-POST /api/login - Authenticate a user and receive a token.
+· POST /api/register - Register a new user.
+· POST /api/login - Authenticate a user and receive a token.
+
 Blog Posts:
 
-GET /api/posts - Retrieve all blog posts.
-POST /api/posts - Create a new blog post.
-GET /api/posts/:id - Retrieve a single blog post by ID.
-PUT /api/posts/:id - Update a blog post by ID.
-DELETE /api/posts/:id - Delete a blog post by ID.
+· GET /api/posts - Retrieve all blog posts.
+· POST /api/posts - Create a new blog post.
+· GET /api/posts/:id - Retrieve a single blog post by ID.
+· PUT /api/posts/:id - Update a blog post by ID.
+· DELETE /api/posts/:id - Delete a blog post by ID.
 
-POST /api/posts/:id/comments - Add a comment to a blog post.
-GET /api/posts/:id/comments - Retrieve comments for a blog post.
-Contributing
+· POST /api/posts/:id/comments - Add a comment to a blog post.
+· GET /api/posts/:id/comments - Retrieve comments for a blog post.
+
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
