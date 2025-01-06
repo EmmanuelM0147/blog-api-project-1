@@ -1,7 +1,7 @@
 {
   "name": "blog-api",
   "version": "1.0.0",
-  "author": "Emmanuel Okeowo",
+  "author": "Emmanuel",
   "description": "A RESTful Blog API with authentication",
   "main": "src/index.js",
   "type": "module",
